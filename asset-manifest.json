@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tre-life-web/static/css/main.fdae42e1.css",
+    "main.js": "/tre-life-web/static/js/main.16d22de1.js",
+    "static/media/space.mp4": "/tre-life-web/static/media/space.41584ed51700d249bf73.mp4",
+    "static/media/training3.jpeg": "/tre-life-web/static/media/training3.17c4087030372f6e0199.jpeg",
+    "static/media/img-2.jpg": "/tre-life-web/static/media/img-2.847b119dc3a55b3bc93b.jpg",
+    "static/media/training.jpeg": "/tre-life-web/static/media/training.95e324478f466450adb6.jpeg",
+    "static/media/loop.jpeg": "/tre-life-web/static/media/loop.b95c4487df161af8912b.jpeg",
+    "static/media/profile.png": "/tre-life-web/static/media/profile.01501739d567688b102f.png",
+    "static/media/spine.jpeg": "/tre-life-web/static/media/spine.b9c334c4d1c534d45394.jpeg",
+    "index.html": "/tre-life-web/index.html",
+    "main.fdae42e1.css.map": "/tre-life-web/static/css/main.fdae42e1.css.map",
+    "main.16d22de1.js.map": "/tre-life-web/static/js/main.16d22de1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdae42e1.css",
+    "static/js/main.16d22de1.js"
+  ]
+}
