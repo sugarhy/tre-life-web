@@ -1,0 +1,192 @@
+.training{
+    width:100%;
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); /* create a grid with 2 equal width columns*/
+    height: 100%;
+}
+
+.training .left{
+    text-align: center;
+    margin: 30px auto;
+    padding: 1rem 3rem 0 3rem;
+    max-width: 1140px;
+}
+
+.training .left p{
+    text-align: justify;
+    margin: 1.2rem 0;
+}
+
+.training .left iframe{
+    width: 80%;
+    margin: 4rem 0 4rem 0;
+}
+
+.training .right{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 1rem 3rem 0 3rem;
+    max-width: 1140px;
+}
+
+.training .right p{
+    text-align: justify;
+    margin: 1.2rem 0;
+    max-width:1140px; 
+}
+
+.training .right iframe{
+    width: 80%;
+    margin: 4rem 4rem 4rem;
+    
+    /* height:100%; */
+    
+}
+
+.right .img-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* create a grid ww 12 equal width columns */
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.right .img{
+    max-width: 90%;
+    border: 1px solid #333;
+}
+
+.right .top{
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+}
+
+.right .bottom{
+    grid-column: 4 / -1;
+    grid-row: 1;
+    z-index: 5;
+}
+
+@media screen and (max-width:1140px){
+    .training{
+        grid-template-columns: 1fr;
+    }
+    .training .img{
+        max-width: 60%;
+    }
+     .training .left{
+        padding: 1rem 3rem;
+        max-width: 920px;
+    }
+    .training .right p{
+        padding: 1rem 3rem;
+        max-width: 920px;
+    }
+
+}
+
+@media screen and (max-width:920px){
+    .training{
+        grid-template-columns: 1fr;
+    }
+    /* .training .img{
+        display:none;
+    } */
+     .training .left{
+        padding: 1rem 4rem;
+        max-width: 748px;
+    }
+    .training .right{
+        width: 100%;
+    }
+    .training .left .yt-video{
+        width: 100%;
+    }
+    .training .right p{
+        padding: 1rem 4rem;
+        max-width: 748px;
+    }
+}
+
+@media screen and (max-width:748px){
+    .training{
+        grid-template-columns: 1fr;
+    }
+    /* .training .img{
+        display:none;
+    } */
+     .training .left{
+        padding: 1rem 4rem;
+        max-width: 600px;
+    }
+    .training .right{
+        width: 100%;
+    }
+    .training .left .yt-video{
+        width: 100%;
+    }
+    .training .right p{
+        padding: 1rem 4rem;
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .training{
+        grid-template-columns: 1fr;
+    }
+    .training .img{
+        max-width: 60%;
+    }
+     .training .left{
+        padding: 1rem 3rem;
+        max-width: 500px;
+    }
+    .training .left .yt-video{
+        width: 100%;
+    }
+    .training .right p{
+        padding: 1rem 3rem;
+        max-width: 500px;
+    }
+    .blockquote p{
+        max-width: 100px;
+    }
+}
+/* reference: https://codepen.io/cliftwalker/pen/XJaEXY */
+.blockquote{
+    font-size: 1.4em;
+    width:60%;
+    margin:50px auto;
+    font-family:Open Sans;
+    font-style:italic;
+    color: #555555;
+    padding:1.2em 30px 1.2em 75px;
+    border-left:8px solid #78C0A8 ;
+    line-height:1.6;
+    position: relative;
+    background:none;
+}
+
+.blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#78C0A8;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+}
+
+.blockquote::after{
+    content: '';
+}
+
+.blockquote p{
+    display: inline;
+}

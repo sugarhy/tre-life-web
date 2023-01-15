@@ -1,0 +1,82 @@
+.provider{
+    width:100%;
+    margin: 3rem 0;
+    /* display: grid; */
+    /* grid-template-columns: (2, 1fr); */
+    height: 100%;
+}
+
+.middle .img-container{
+    position: relative;
+    align-items: center;
+    text-align: center; 
+    
+}
+.provider .left{
+    margin: auto;
+}
+.provider .left .h1{
+    align-items: center;
+    text-align: center;
+}
+
+.provider .left{
+    text-align: justify;
+    margin: auto;
+    padding: 1rem 2rem;
+    max-width: 1000px;
+}
+
+.provider .left p{
+    margin: 1.2rem 1rem;
+    font-size: 20px;
+}
+
+.provider .left .proj{
+    margin: 3rem 0;
+}
+.provider .left .proj p{
+    margin: 1rem 2rem 2rem;
+}
+
+
+.middle .img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+
+/* on screens that are <992px, set changes  */
+@media screen and (max-width:992px){
+    .provider .left{
+        padding: 1rem 3rem;
+        max-width: 780px;
+    }
+}
+
+/* on screens that are <768px, set changes  */
+@media screen and (max-width:768px){
+    .provider .left {
+        padding: 1rem 4rem;
+        max-width: 600px;
+    }
+    .provider .img{
+        max-width:50%;
+        max-height: 50%;
+    }
+}
+
+/* on screens that are <768px, set changes  */
+@media screen and (max-width:600px){
+    .provider .left {
+        padding: 1rem 3.5rem;
+        max-width: 480px;
+    }
+    .provider .left .p{
+        font-size: 10px;
+    }
+    .provider .img{
+        max-width:50%;
+        max-height: 50%;
+    }
+}
